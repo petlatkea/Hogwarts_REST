@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hogwarts REST</title>
+</head>
+<body>
+  <h1>Hogwarts Students (REST-edition)</h1>
+
+  <table id="student_table">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Middle Name</th>
+        <th>Last Name</th>
+        <th>House</th>
+        <th>email</th>
+        <th>photo</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+
+  <template id="student_row">
+    <tr>
+      <td data-field="firstName"></td>
+      <td data-field="middleName"></td>
+      <td data-field="lastName"></td>
+      <td data-field="house"></td>
+      <td data-field="email"></td>
+      <td><img data-field="photo" src=""></td>
+    </tr>
+  </template>
+  
+  <script src="script.js"></script>
+</body>
+</html>
